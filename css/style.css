@@ -1,0 +1,428 @@
+/* Your custom styles */
+
+html,
+body,
+header,
+.jarallax {
+    height: 100%;
+}
+
+@media (max-width: 740px) {
+
+    html,
+    body,
+    header,
+    .jarallax {
+        height: 815px;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+
+    html,
+    body,
+    header,
+    .jarallax {
+        height: 600px;
+    }
+
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+        background: rgba(0, 0, 0, .75);
+    }
+
+    .navbar {
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12) !important;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    /* Hiding service img in mobile version */
+    #service_img {
+        visibility: hidden;
+        display: none;
+    }
+
+    /* Footer social icons - center in flex container */
+    #footer_social_icons {
+        justify-content: center;
+    }
+
+}
+
+/* making navbar smaller */
+@media (min-width: 600px) {
+.navbar.scrolling-navbar {
+    padding-top: 5px;
+    padding-bottom: 0px;
+    }
+.navbar.scrolling-navbar.top-nav-collapse {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+}
+
+
+/* hide menu in mobile form navbar */
+/* @media (max-width: 991px) {
+    .dropdown-toggle::after {
+        visibility: hidden;
+        display: none;
+    }
+} */
+
+.dropdown .dropdown-menu.dropdown-primary .dropdown-item.active {
+    background-color: #8bc34a !important;
+}
+.dropdown .dropdown-menu.dropdown-primary .dropdown-item:hover {
+    background-color: #8bc34a !important;
+}
+
+#unique_jumbotron {
+padding: 10px 0px;
+margin: 0px;
+background-color: rgba(0, 0, 0, .75);
+border-radius: 25px;
+padding: 2rem;
+}
+
+
+#header_logo {
+    float: left;
+    width: 110px;
+    height: 51px;
+    margin: 0;
+    padding: 0;
+    /* position: absolute; */
+    top: -30px;
+    /* z-index: 1100; */
+    background: url(../img/nav_logo_with_outline_110x51.svg) top center no-repeat;
+}
+
+
+
+/* custom scrolling navbar color */
+.model .navbar:not(.top-nav-collapse) {
+    background-color: rgba(0, 0, 0, .65);
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.model .navbar {
+    background-color: rgba(0, 0, 0, .85);
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+
+.dropdown-item {
+    background-color: rgba(0, 0, 0, .85);
+
+}
+
+.menu-grey-color {
+    background-color: rgba(0, 0, 0, .85);
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.dropdown-menu {
+    background-color: rgba (0, 0, 0, .85);
+}
+
+.navbar .dropdown.multi-level-dropdown .dropdown-menu .dropdown-item:hover {
+    background: rgba(139, 195, 74, .7);
+}
+
+.dropdown-item .a:hover{
+    background: rgba(139, 195, 74, .7);
+}
+
+.dropdown .dropdown-menu .dropdown-primary .dropdown-item a.active {
+background: rgba(139, 195, 74, .7);
+}
+
+
+.model .rgba-gradient-mask {
+    background: linear-gradient(45deg, rgba(139, 195, 74, .7), rgba(74, 189, 195, .8));
+}
+
+.custom-checkbox .custom-control-input:indeterminate~.custom-control-label::before {
+    border-color: #8bc34a;
+    background-color: #8bc34a
+}
+
+.bq-success {
+    border-left: 3px solid #8bc34a !important;
+}
+
+.border-success-light {
+    border-color: #8bc34a !important;
+    width: 75%;
+}
+
+a:not(.collapsed) .rotate-icon {
+
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg) 1sec;
+
+}
+
+.fa-angle-left {
+    float: right;
+    color: #8bc34a;
+}
+
+.model .jumbotron {
+    border-radius: 10px;
+}
+
+#service_img {
+    border-radius: 10px;
+}
+
+/* Color of the phone number at the copyright line */
+#phone_match_copyright_color {
+    color: rgba(255, 255, 255, .6);
+}
+
+/* custom colors for contact form */
+.active-light-green-textarea.md-form label.active {
+    color: #8bc34a;
+}
+
+.light-green-textarea textarea.md-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #8bc34a;
+    box-shadow: 0 1px 0 0 #8bc34a;
+}
+
+.light-green-textarea.md-form .prefix.active {
+    color: #8bc34a;
+}
+
+.active-light-green-textarea.md-form textarea.md-textarea:focus:not([readonly])+label {
+    color: #8bc34a;
+}
+
+.active-light-green-textarea.md-form input[type=text]:focus:not([readonly])+label {
+    color: #8bc34a;
+}
+
+.active-light-green-textarea.md-form input[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid #8bc34a;
+    box-shadow: 0 1px 0 0 #8bc34a;
+}
+
+/* Included color classes..
+	.red
+	.blue
+	.yellow
+*/
+
+/* @import url(https://fonts.googleapis.com/css?family=Raleway:300,600); */
+
+figure.photo {
+    /* font-family: 'Raleway', Arial, sans-serif; */
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 220px;
+    max-width: 310px;
+    max-height: 220px;
+    width: 100%;
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.35);
+}
+
+figure.photo * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+figure.photo img {
+    max-width: 100%;
+    position: relative;
+    opacity: 0.4;
+}
+
+figure.photo figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+figure.photo h3 {
+    position: absolute;
+    left: 40px;
+    right: 40px;
+    display: inline-block;
+    background: #000000;
+    -webkit-transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
+    transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
+    padding: 12px 5px;
+    margin: 0;
+    top: 50%;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+figure.photo h3 span {
+    font-weight: 600;
+}
+
+figure.photo:before {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    content: '';
+    background: #ffffff;
+    position: absolute;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-transform: rotate(110deg) translateY(-50%);
+    transform: rotate(110deg) translateY(-50%);
+}
+
+figure.photo a {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+figure.photo.blue {
+    background: #123851;
+}
+
+figure.photo.blue h3 {
+    background: #0a212f;
+}
+
+figure.photo.red {
+    background: #581a14;
+}
+
+figure.photo.red h3 {
+    background: #36100c;
+}
+
+figure.photo.yellow {
+    background: #7f5006;
+}
+
+figure.photo.yellow h3 {
+    background: #583804;
+}
+
+figure.photo:hover img,
+figure.photo.hover img {
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+figure.photo:hover h3,
+figure.photo.hover h3 {
+    -webkit-transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%);
+    transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%);
+}
+
+figure.photo:hover:before,
+figure.photo.hover:before {
+    -webkit-transform: rotate(110deg) translateY(-150%);
+    transform: rotate(110deg) translateY(-150%);
+}
+
+/* class for service border width */
+
+border-top {
+    border-top-width: 2px !important;
+}
+
+/* collapse header   */
+#service_header {
+    height: 0px;
+}
+
+/* transpar ent of card color */
+#wanna {
+    background-color: rgb(255, 255, 255, 0.65);
+}
+
+#serviceHeaderbrown {
+    /* position: absolute; */
+    /* left: 40px;
+    right: 40px; */
+    /* display: inline-block; */
+    background: #583804;
+    color: white;
+    /* -webkit-transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
+    transform: skew(-10deg) rotate(-10deg) translate(0, -50%); */
+    padding: 5px 5px;
+    margin: 0;
+    top: 50%;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: right;
+}
+
+#serviceHeaderblue {
+    /* position: absolute; */
+    /* left: 40px;
+    right: 40px; */
+    /* display: inline-block; */
+    background: #0a212f;
+    color: white;
+    /* -webkit-transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
+    transform: skew(-10deg) rotate(-10deg) translate(0, -50%); */
+    padding: 5px 5px;
+    margin: 0;
+    top: 50%;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: right;
+}
+
+#serviceHeaderred {
+    /* position: absolute; */
+    /* left: 40px;
+    right: 40px; */
+    /* display: inline-block; */
+    background: #36100c;
+    color: white;
+    /* -webkit-transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
+    transform: skew(-10deg) rotate(-10deg) translate(0, -50%); */
+    padding: 5px 5px;
+    margin: 0;
+    top: 50%;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: right;
+}
+
+#serviceHeaderName {
+    font-weight: 600;
+}
+
+/* custom for icon */
+
+img.icon8 {
+width: 32px;
+height: 32px;
+vertical-align: baseline;
+
+}
