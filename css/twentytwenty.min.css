@@ -2,7 +2,7 @@
 .twentytwenty-horizontal .twentytwenty-handle:before,
 .twentytwenty-vertical .twentytwenty-handle:after,
 .twentytwenty-vertical .twentytwenty-handle:before {
-    content: " ";
+    content: "";
     display: block;
     background: #fff;
     position: absolute;
@@ -67,6 +67,7 @@
 .twentytwenty-container.active :hover.twentytwenty-overlay,
 .twentytwenty-overlay {
     background: rgba(0, 0, 0, 0)
+    
 }
 
 .twentytwenty-horizontal .twentytwenty-after-label:before,
