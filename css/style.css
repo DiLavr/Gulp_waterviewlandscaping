@@ -433,3 +433,11 @@ vertical-align: baseline;
     margin: auto;
 }
 
+#unique_jumbotron {
+
+    padding: 0.75rem;
+}
+
+#proudly {
+    margin-bottom: 0.25rem;
+}
