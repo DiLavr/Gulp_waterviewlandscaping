@@ -27,21 +27,17 @@ header,
     .jarallax {
         height: 815px;
     }
-}
 
-@media (max-width: 768px) {
-
-    /* Hiding service img in mobile version */
-    #service_img {
-        visibility: hidden;
-        display: none;
-    }
-
-    /* Footer social icons - center in flex container */
-    #footer_social_icons {
-        justify-content: center;
-    }
-
+        /* Hiding service img in mobile version */
+        #service_img {
+            visibility: hidden;
+            display: none;
+        }
+    
+        /* Footer social icons - center in flex container */
+        #footer_social_icons {
+            justify-content: center;
+        }
 }
 
 @media (min-width: 800px) and (max-width: 850px) {
