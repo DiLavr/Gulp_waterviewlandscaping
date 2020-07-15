@@ -7,6 +7,18 @@ header,
     height: 100%;
 }
 
+/* making navbar smaller */
+@media (min-width: 600px) {
+    .navbar.scrolling-navbar {
+        padding-top: 5px;
+        padding-bottom: 0px;
+        }
+    .navbar.scrolling-navbar.top-nav-collapse {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    }
+
 @media (max-width: 740px) {
 
     html,
@@ -15,28 +27,6 @@ header,
     .jarallax {
         height: 815px;
     }
-}
-
-@media (min-width: 800px) and (max-width: 850px) {
-
-    html,
-    body,
-    header,
-    .jarallax {
-        height: 600px;
-    }
-
-}
-
-@media (min-width: 800px) and (max-width: 850px) {
-    .navbar:not(.top-nav-collapse) {
-        background: rgba(0, 0, 0, .75);
-    }
-
-    .navbar {
-        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12) !important;
-    }
-
 }
 
 @media (max-width: 768px) {
@@ -54,21 +44,33 @@ header,
 
 }
 
-/* making navbar smaller */
-@media (min-width: 600px) {
-.navbar.scrolling-navbar {
-    padding-top: 5px;
-    padding-bottom: 0px;
+@media (min-width: 800px) and (max-width: 850px) {
+
+    html,
+    body,
+    header,
+    .jarallax {
+        height: 600px;
     }
-.navbar.scrolling-navbar.top-nav-collapse {
-    padding-top: 0px;
-    padding-bottom: 0px;
+
+    .navbar:not(.top-nav-collapse) {
+        background: rgba(0, 0, 0, .75);
+    }
+
+    .navbar {
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12) !important;
+    }
+
+}
+
+@media (min-width: 1200px) {
+#front_page {
+    max-width: 70%;
 }
 }
 
-
-/* hide menu in mobile form navbar */
-/* @media (max-width: 991px) {
+/* hide menu in mobile form navbar 
+ @media (max-width: 991px) {
     .dropdown-toggle::after {
         visibility: hidden;
         display: none;
@@ -103,8 +105,6 @@ padding: 2rem;
     background: url(../img/nav_logo_with_outline_110x51.svg) top center no-repeat;
 }
 
-
-
 /* custom scrolling navbar color */
 .model .navbar:not(.top-nav-collapse) {
     background-color: rgba(0, 0, 0, .65);
@@ -117,7 +117,6 @@ padding: 2rem;
     letter-spacing: 1px;
     font-weight: 500;
 }
-
 
 .dropdown-item {
     background-color: rgba(0, 0, 0, .85);
