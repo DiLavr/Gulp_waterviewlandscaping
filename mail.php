@@ -39,7 +39,7 @@ if ($formphone === '') {
 
 
 $content="From: $name \nEmail: $email \nMessage: $message \nPhone number: $formphone\nUpdates (if true - want/if false - don't want): $updates";
-$recipient = "waterviewlandscapingmarketing@gmail.com";
+$recipient = "info@waterviewlandscaping.com";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $content, $mailheader) or die("Error!");
 print json_encode(array('message' => 'Email successfully sent!', 'code' => 1));
