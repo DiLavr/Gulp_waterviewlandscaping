@@ -1,0 +1,9 @@
+# allow to collect data for Google
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+# Sitemap link
+User-agent: *
+Allow: /
+
+Sitemap: http://www.example.com/sitemap.xml
