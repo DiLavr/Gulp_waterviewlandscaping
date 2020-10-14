@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded',function(event){
   // array with texts to type in typewriter
-  var dataText = ["DESIGN", "CONSTRUCTION", "LANDSCAPING MAINTENANCE", "FULL SERVICE COMPANY"];
+  var dataText = ["DESIGN", "CONSTRUCTION", "MAINTENANCE", "FULL SERVICE DESIGN BUILD COMPANY"];
   
   // type one text in the typwriter
   // keeps calling itself until the text is finished
@@ -10,6 +10,8 @@ document.addEventListener('DOMContentLoaded',function(event){
       // add next character to h1
      document.querySelector("h1").innerHTML = text.substring(0, i+1) +'<span aria-hidden="true"></span>';
 
+    //  IT'S WORKING WOTH ANY TAG - IN THIS CASE - WITH h1 - HAVEN'T TEXTED WITH ID
+
       // wait for a while and call this function again for next character
       setTimeout(function() {
         typeWriter(text, i + 1, fnCallback)
@@ -18,7 +20,7 @@ document.addEventListener('DOMContentLoaded',function(event){
     // text finished, call callback if there is a callback function
     else if (typeof fnCallback == 'function') {
       // call callback after timeout
-      setTimeout(fnCallback, 700);
+      setTimeout(fnCallback, 1400);
     }
   }
   // start a typewriter animation for a text in the dataText array
